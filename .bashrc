@@ -95,6 +95,7 @@ install_Vundle() {
 	echo "call vundle#rc()" >> ~/.vimrc
 	echo "Plugin 'gmarik/vundle'" >> ~/.vimrc
 	echo "Plugin 'scrooloose/nerdtree.git'" >> ~/.vimrc
+	echo "Plugin 'scrooloose/syntastic.git'" >> ~/.vimrc
 	echo "Plugin 'Buffergator'" >> ~/.vimrc
 	echo "filetype plugin indent on" >> ~/.vimrc
 }
