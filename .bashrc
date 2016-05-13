@@ -110,3 +110,7 @@ install_nerdtree() {
     git clone https://github.com/scrooloose/nerdtree
     echo "type :Helptags or :help NERD_tree.txt"
 }
+
+export LS_OPTIONS='--color=auto'
+eval "`dircolors`"
+alias ls='ls $LS_OPTIONS'
